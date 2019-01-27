@@ -1,12 +1,15 @@
 # Image-Mimic-Genetic-Algorithm
-This genetic algorithm i have created will try to mimic the target image
+This genetic algorithm i have created will try to mimic the target image, Demo in https://karthiknedunchezhiyan.github.io/Image-Mimic-Genetic-Algorithm
 
-<p float="left">
-  <img src="src/images/screenshot-gen-100.png" width="49%">
-  <img src="src/images/screenshot-gen-180.png" width="49%">
-  <img src="src/images/screenshot-gen-210.png" width="49%">
-  <img src="src/images/screenshot-gen-291-final.png" width="49%">
+<p>
+    <img src="src/images/screenshot-gen-100.png">
+    <em>Fitness reached 60% on 100th generation</em>
 </p>
+<p>
+    <img src="src/images/screenshot-gen-291-final.png">
+    <em>Fitness reached 100% on 291th generation</em>
+</p>
+  
 View in https://karthiknedunchezhiyan.github.io/Image-Mimic-Genetic-Algorithm
 
 ## Meta
