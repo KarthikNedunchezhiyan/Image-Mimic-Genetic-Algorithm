@@ -1,5 +1,5 @@
 # Image-Mimic-Genetic-Algorithm
-This genetic algorithm i have created will try to mimic the target image (New random image will be generated at each time) || Demo in [@liveDemo](https://karthiknedunchezhiyan.github.io/Image-Mimic-Genetic-Algorithm) || You can also use my [@multi-level-snake-game](https://github.com/KarthikNedunchezhiyan/MultiLevel-Snake-Game) as a playground to practice Genetic Algorithm || Check my other works [@MyRepos](https://github.com/KarthikNedunchezhiyan) || To know more about Genetic algorithm [@WiKi](https://en.wikipedia.org/wiki/Genetic_algorithm)
+This unsupervised genetic algorithm i have created will try to mimic the target image (New random image will be generated at each time) || Demo in [@liveDemo](https://karthiknedunchezhiyan.github.io/Image-Mimic-Genetic-Algorithm) || You can also use my [@multi-level-snake-game](https://github.com/KarthikNedunchezhiyan/MultiLevel-Snake-Game) as a playground to practice Genetic Algorithm || Check my other works [@MyRepos](https://github.com/KarthikNedunchezhiyan) || To know more about Genetic algorithm [@WiKi](https://en.wikipedia.org/wiki/Genetic_algorithm)
 
 ## Configurations
 
