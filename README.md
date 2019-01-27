@@ -1,5 +1,16 @@
 # Image-Mimic-Genetic-Algorithm
-This genetic algorithm i have created will try to mimic the target image, Demo in https://karthiknedunchezhiyan.github.io/Image-Mimic-Genetic-Algorithm
+This genetic algorithm i have created will try to mimic the target image (New random image will be generated at each time) || Demo in [@liveDemo](https://karthiknedunchezhiyan.github.io/Image-Mimic-Genetic-Algorithm) || You can also use my [@multi-level-snake-game](https://github.com/KarthikNedunchezhiyan/MultiLevel-Snake-Game) as a playground to practice Genetic Algorithm || To know more about Genetic algorithm [@WiKi](https://en.wikipedia.org/wiki/Genetic_algorithm)
+
+## Configurations
+
+Hyperparameter | value
+--- | ---
+Population Count | 10000
+Selection Count | 2
+Mutation Rate | 0.001
+Chromosome Length | 900
+
+## Screenshots
 
 <p>
     <img src="src/images/screenshot-gen-100.png">
@@ -11,6 +22,10 @@ This genetic algorithm i have created will try to mimic the target image, Demo i
 </p>
   
 View in https://karthiknedunchezhiyan.github.io/Image-Mimic-Genetic-Algorithm
+
+## Components Used
+
+[@ChartJS](https://www.chartjs.org/) for chart, [@P5JS](https://p5js.org/) for canvas
 
 ## Meta
 
