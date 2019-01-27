@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <title>Image Mimic Genetic Algorithm</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class='GAPanel'>
+    <header>
+        <h3>Image Mimic Genetic Algorithm</h3>
+    </header>
+    <div class='chart'>
+        <div class='controls'>
+            <nav>
+                <a href='#' style="font-size: 15px;">Random Image Selected</a>
+            </nav>
+            <div style="display: inline">
+                <span class='fa fa-caret-up fa-lg'>&nbsp;<span id="growthRate">0</span></span>
+            </div>
+        </div>
+        <div class="canvas-container">
+            <div id="targetImage"></div>
+        </div>
+        <div id="chartContainer" style="height: 25vh;width: 100%;"></div>
+    </div>
+    <div class='info'>
+        <h4>Config info:</h4>
+        <div class='info-module'>
+            <div class='heading'>
+                <span>Population Count</span>
+                <span>10000</span>
+            </div>
+            <div class='progress populationCount'></div>
+        </div>
+        <div class='info-module'>
+            <div class='heading'>
+                <span>selection Count</span>
+                <span>2</span>
+            </div>
+            <div class='progress selectionCount'></div>
+        </div>
+        <div class='info-module'>
+            <div class='heading'>
+                <span>Mutation Rate</span>
+                <span>0.001</span>
+            </div>
+            <div class='progress mutationRate'></div>
+        </div>
+        <div class='info-module'>
+            <div class='heading'>
+                <span>Fitness Score</span>
+                <span id="fitnessScore">0</span>
+            </div>
+            <div class='progress fitnessScore' id="fitnessScoreBar"></div>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="../js/thirdparty/canvasjs.min.js"></script>
+<script src="../js/thirdparty/p5.min.js"></script>
+<script src="../js/geneticAlgorithmLib/Gene.js"></script>
+<script src="../js/geneticAlgorithmLib/Environment.js"></script>
+<script src="../js/imageGenerator.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>
