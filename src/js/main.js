@@ -75,6 +75,7 @@ window.onload = ()=>{
                         chart.render();
                     }
                     if (topFitness >= 100) {
+                        alert("100% completed...");
                         _.noLoop();
                     }
                     ENVIRONMENT.populateAll();
