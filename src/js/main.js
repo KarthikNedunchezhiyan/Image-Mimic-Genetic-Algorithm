@@ -5,7 +5,7 @@ let chart = null;
 let imgSize = 30;
 let scaleValue = 5;
 let targetImgPixelMat = [];
-let initialHeapRange = [1100, 1550];
+let initialHeapRange = [900, 1150];
 let initialHeap = Math.round(initialHeapRange[0] + Math.random() * (initialHeapRange[1] - initialHeapRange[0]));
 let threshold = 4;
 let gapBetweenImages = 5;
@@ -47,6 +47,8 @@ window.onload = ()=>{
                 }
                 img = imageGen.constructImage(targetImgPixelMat, targetImageP5);
                 ENVIRONMENT.randomPopulateAll();
+                document.getElementById("preLoader").style.display = "none";
+                document.body.style.overflow = "scroll";
             };
 
             _.draw = () => {
