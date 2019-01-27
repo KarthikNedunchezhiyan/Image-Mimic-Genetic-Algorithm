@@ -16,11 +16,12 @@ class ImageGenerator {
     }
 
     convertPixel2Dto3D(i, j, count) {
+        // [255, 87, 51, 255]
         switch (count) {
             case 0:
-                return [255, 87, 51, 255];
+                return [255, 255, 255, 255];
             case 1:
-                return [255, 195, 0, 255];
+                return [255, 87, 51, 255];
             case 2:
                 return [0, 255, 0, 255];
             case 3:
