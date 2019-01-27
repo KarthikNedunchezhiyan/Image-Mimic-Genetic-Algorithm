@@ -1,7 +1,7 @@
 # Image-Mimic-Genetic-Algorithm
 This genetic algorithm i have created will try to mimic the target image
 
-![](src/images/screenshot-gen-100.png) ![](src/images/screenshot2.png)
+![](src/images/screenshot-gen-100.png) ![](src/images/screenshot-gen-180.png) ![](src/images/screenshot-gen-210.png) ![](src/images/screenshot-gen-291-final.png)
 
 View in https://karthiknedunchezhiyan.github.io/Image-Mimic-Genetic-Algorithm
 
