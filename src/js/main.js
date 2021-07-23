@@ -1,11 +1,11 @@
 let img;
 
-let dps = [{x: 0, y: 0}];
+let dps = [{ x: 0, y: 0 }];
 let chart = null;
 let imgSize = 30;
 let scaleValue = 5;
 let targetImgPixelMat = [];
-let initialHeapRange = [900, 1150];
+let initialHeapRange = [750, 900];
 let initialHeap = Math.round(initialHeapRange[0] + Math.random() * (initialHeapRange[1] - initialHeapRange[0]));
 let threshold = 4;
 let gapBetweenImages = 5;
@@ -26,8 +26,8 @@ ENVIRONMENT.targetGene = newGene;
 
 let targetImageP5 = new p5();
 
-window.onload = ()=>{
-    try{
+window.onload = () => {
+    try {
         let targetImageSketch = _ => {
             _.setup = () => {
                 let canvas = _.createCanvas((((imgSize + (gapBetweenImages / 2)) * scaleValue) * 2) + canvasPadding, imgSize * scaleValue + canvasPadding);
@@ -101,7 +101,7 @@ window.onload = ()=>{
         chart.render();
 
         targetImageP5 = new p5(targetImageSketch);
-    }catch (e) {
+    } catch (e) {
         alert(e)
     }
 };
